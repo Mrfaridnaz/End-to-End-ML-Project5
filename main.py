@@ -3,8 +3,6 @@ from mlProject.pipeline.stafe_01_data_ingestion import DataIngestionTrainingPipe
 from mlProject.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from mlProject.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 
-
-
 STAGE_NAME = "Data Ingestion stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
